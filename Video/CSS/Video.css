@@ -1,0 +1,99 @@
+.controles{
+    width: 50px;
+
+}
+#Video{
+    
+    width: 100%;
+
+}
+#Cerrar{
+    position: absolute;
+    right: 2;
+    top: 2;
+    
+}
+.prueba{
+    width: 500px;
+}
+.QuitarAspa{
+    display: none;
+}
+.quitarPubli{
+    display: none;
+}
+.PonerAspa{
+visibility: visible;
+}
+#lateralDerecho{
+    position: absolute;
+    
+    right: 180;
+    width: 20%;
+    height: 130%;
+
+}
+ul li{
+    display: inline;
+
+    padding-left: 30px;
+    
+}
+#Ocultar{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+   left: 0;
+   
+
+}
+.ventana{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    font-size: 25px;
+    text-align: center;
+}
+#Publicidad{
+    background-color: green;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+   width: 50%;
+   height: 50%;
+  
+}
+#VideoCaja{
+background-color: black;
+    border: 4px solid black;
+    width: 640px;
+    padding: 10px;
+   
+
+
+}
+#Principal{
+    position:relative;
+    
+ 
+}
+#Video2,#Video3,#Video4,#Video5,#Video6,#Video7{
+    width: 80%;
+    padding-bottom: 10px;
+}
+#Botones{
+    margin-left: -2%;
+   
+}
+
+#ContenedorVideo{
+    background-color: orangered;
+    border: 4px solid black;
+    width: 668px;
+    height:  460px;
+    margin-left: 10%;
+    margin-top: 10%;
+    position: relative;
+    
+}
