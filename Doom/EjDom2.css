@@ -1,0 +1,105 @@
+.PonerSombra{
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   
+}
+.PonerSombraInterior{
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    -webkit-box-shadow: inset 5px 5px 5px 35px; 
+}
+.QuitarSombraInterior{
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.hacerRedondo{
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    border-radius:65%;   
+}
+.QuitarRedondo{
+    transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease;   
+}
+#Entero{
+    border:2px solid black;
+    height: 100%;
+    
+}
+.Sombra{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.QuitarSombra{
+
+ transition-delay: 0s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+
+}
+.QuitarHueco{
+    display: none;
+}
+#Cuadro1{
+    width: 20%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 2%;
+    background-color: red;
+
+}
+
+#Cuadro2{
+    width: 20%;
+    height: 40%;
+    margin-top: -24.4%;
+    margin-left: 27%;
+    background-color: blue;
+
+}
+#Cuadro3{
+    width: 20%;
+    height: 40%;
+    margin-top: -24.4%;
+    margin-left: 52%;
+    background-color: yellow;
+
+}
+#Cuadro4{
+    width: 20%;
+    height: 40%;
+    margin-left: 77%;
+    margin-top: -24.4%;
+    background-color: green;
+
+}
+#Botones{
+    margin-top: 5%;
+}
+#Boton1{
+    margin-top: 5%;
+    margin-left: 9%;
+
+
+}
+#Boton2{
+    margin-top: 5%;
+    margin-left: 34%;
+}
+#Boton3{
+    margin-top: 5%;
+    margin-left:59%;
+}
+#Boton4{
+    margin-top: 5%;
+    margin-left: 85%;
+}

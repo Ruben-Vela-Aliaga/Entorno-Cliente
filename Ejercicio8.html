@@ -1,0 +1,39 @@
+<html>
+    <head><title>Ejercicio8</title>
+    <meta charset="UTF-8">
+
+
+
+
+        <script type="text/javascript">
+           var nombre= prompt("Dime el String");
+           var num = prompt("Dime el num de caracteres");
+            var posicion = prompt("Elije el ini o el fin");
+           
+            document.write(Extraer(nombre,num,posicion));
+
+            function Extraer(Nombre,indice,posicion){
+                if(posicion == "ini"){
+                    let Resultado =Nombre.substring(0,indice);
+                    return Resultado;
+
+                }
+                if(posicion == "fin"){
+
+                 let Resultado =Nombre.substring(Nombre.length-indice,Nombre.length+1);
+                 return Resultado;
+        }
+                
+                
+
+            }
+
+       
+
+         
+           
+
+        
+        </script>
+</head>
+</html>

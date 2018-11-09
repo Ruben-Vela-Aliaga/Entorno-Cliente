@@ -1,0 +1,49 @@
+#Eliminar,#Editar{
+    width: 40px;
+    margin-left: 20px;
+  
+ 
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+#Añadir{
+    width: 60px;
+    position: fixed;
+    
+ 
+}
+.FondoBoton{
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+#BotonMas{
+    text-align: center;
+
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 10%;
+    position: absolute;
+}
+#Formulario{
+
+
+}
+#Contenedor{
+margin-left: 20%;
+margin-right: 10%; 
+}
+.filas{
+    float: left;
+    margin-left: 20px;
+ 
+}
+#Botones{
+  
+    margin-top: 60px;
+}
+.Inactivo{
+}

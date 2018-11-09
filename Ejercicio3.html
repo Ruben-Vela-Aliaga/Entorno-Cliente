@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>
+           Ejercicio1
+        </title>
+        <meta charset="UTF-8">
+        <script type="text/javascript">
+            while(true){
+
+
+               var opcion=parseInt(prompt("Elije:\n\n 1)DNI \n\n 2)E-mail \n\n 3)Telefono \n\n 4)IP \n\n 5)URL")) ;
+
+                switch (opcion) {
+                        case 1:
+                        var DNI=prompt("Dime el dni");
+                                dni(DNI)
+                        
+                        break;
+                        case 2:
+                        var email=prompt("Dime el correo");
+                        Correo(email);
+
+                        
+                        break;
+                        case 3:
+                        var tel=prompt("Dime el Numero de telefono");
+                        telefono(tel);
+
+                        
+                        break;
+                        case 4:
+                        var direccion=prompt("Dime la ip");
+                        iP(direccion);
+                        
+                        break;
+                        case 5:
+                        var URL=prompt("Dime la URL");
+                        url(URL);
+                        
+                        break;
+                
+                    default:
+                        break;
+                }
+
+
+
+            }
+
+        function dni(DNI){
+
+  var numero = DNI.substr(0,DNI.length-1);
+  let = DNI.substr(DNI.length-1,1);
+  numero = numero % 23;
+var letra='TRWAGMYFPDXBNJZSQVHLCKET';
+  letra=letra.substring(numero,numero+1);
+  if (letra!=let) {
+    alert('Dni erroneo');
+}else{
+    alert("Dni correcto")
+}
+}
+
+
+
+        
+        function Correo(valor){
+            re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+	if(!re.exec(valor)){
+		alert('email no valido');
+	}
+	else alert('email valido');
+	}
+        
+        function telefono(telefono){
+                var reNumero=/^([9,7,6]{1})+([0-9]{8})$/;
+            if (reNumero.exec(telefono)) {
+
+        alert("El numero indicado si existe");
+
+    } else {
+
+    alert("El numero indicado no existe");
+
+    }
+}
+        function iP(ipaddress){
+            if (/^(25[0-5]|2[0-4][url0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(ipaddress)) {  
+               alert("IP Correcta");
+  }else{
+  alert("IP no valida");  
+  }  
+}  
+
+
+        
+        function url(url){
+            if(/^(http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/.test(url)){
+                alert("URL CORRECTA");
+            }else{
+                alert("URL INCORRECTA")
+            }
+
+        }
+    
+        </script>
+    </head>
+    
+</html>

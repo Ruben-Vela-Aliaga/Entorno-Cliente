@@ -1,0 +1,21 @@
+<html>
+    <head><title>Ejercicio5</title>
+    <meta charset="UTF-8">
+
+
+
+
+        <script type="text/javascript">
+
+           var mes= prompt("Dime el mes");
+            var año= prompt("Dime el año");
+
+    document.write(obtenerDiasMes(mes, año));
+    function  obtenerDiasMes(Mes, Año){
+        return new Date(año, mes,0).getDate();
+    }
+        
+        
+        </script>
+</head>
+</html>

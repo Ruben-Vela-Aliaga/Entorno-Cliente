@@ -1,0 +1,30 @@
+<html>
+<head><title>Array</title>
+<meta charset="UTF-8">
+<script type="text/javascript">
+
+//.pop->Quita ultimo elemento del Array
+//.push->Añade el elemento en la ultima posicion del Array
+//.unshift->Añade el elemento al principio del Array
+//.slice->Crea una copia
+//.length->longitud
+//.sort->ordena de menor a mayor
+//.revers-->Damos la vuelta
+//.concat->concatena dos arrays
+//.join("-")-->Separa el array en lo q quieras(por defecto en comas)
+var Array = new Array ("cosas",1,3,"Peine",4);
+var Copia1=Array.slice();
+Array.push(6)
+var copia2=Array;
+document.write(Copia1+"<br>"+copia2+"<br>"+Array);
+//Devuelve un array con todos los elementos pasados por la funcion;
+var a1 =['a','b','c'];
+ var a2= a1.map(function(mayus) {return mayus.toUpperCase(); });
+
+document.write("<br>"+a2);
+
+</script>
+
+</head>
+
+</html>

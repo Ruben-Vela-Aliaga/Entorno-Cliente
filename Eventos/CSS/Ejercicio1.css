@@ -1,0 +1,40 @@
+form{
+    text-align: end;
+    border: 2px solid black;
+    margin-left :25%;
+    margin-right :25%;
+    margin-top :5%;
+    background:linear-gradient(60deg,black,gray);
+    color: white;
+    font-size: 15px;
+
+
+
+}
+#Titulo{
+margin-left: 190px;
+
+}
+legend{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    background: gray;
+
+
+}
+div{
+    padding: 20px;
+   margin-right: 30%;
+}
+input{
+width: 350px;
+    
+}
+button{
+    color: white;
+    background: linear-gradient(30deg,black,gray);
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+}
