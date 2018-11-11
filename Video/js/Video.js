@@ -3,11 +3,23 @@ var maxVolumen=1;
 var minVolumen=0;
 var clicks=0;
 var Tiempo =10;
-var intervalo;
+var intervalo;    
+var j=0;
+var valorMax=1000;
 
 
 function contador(){
     document.getElementById("contador").innerText=--Tiempo;
+    document.getElementById("barra").setAttribute('value',0);
+    document.getElementById("barra").setAttribute('max',valorMax);
+
+    progreso= setInterval(function aumentar(){
+        document.getElementById("valor").innerHTML=j;
+        document.getElementById("barra").setAttribute('value',j=j+25);
+        if(j>maximo){
+            clearInterval(progreso);
+        }
+    },1000);
     if(!Tiempo){
         clearInterval(intervalo);
         document.getElementById("Cerrar").style.display = "block";
@@ -59,6 +71,7 @@ function tiempoPubli(){
          
 /*          document.getElementById("Ocultar").classList.add("quitarPubli"); */
             document.getElementById("Ocultar").style.display="none";
+            document.getElementById("barra").style.visibility="hidden";
         }
         clicks++;
     }
@@ -139,7 +152,9 @@ function restablecerPubli() {
     document.getElementById("Ocultar").style.display = "block";
     document.getElementById("Cerrar").style.display = "none";
     Tiempo = 11;
+   j=0;
     clearInterval(intervalo);
+
     intervalo= setInterval(contador, 1000);
     clicks=0;
     tiempoPubli();
