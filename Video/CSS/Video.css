@@ -2,23 +2,60 @@
     width: 50px;
 
 }
-#barra{
-    width: 100%;
+@media only screen and (max-width : 720px) and (orientation:landscape) {
+
+        #lateralDerecho{
+            display: none;
+          
+        }
+        #Principal{
+            width: 20%;
+               display: none;
+        }
+        #ContenedorVideo{
+            width: 20%;
+        }
+        #Video{
+            width: 50%;
+        }
+        #VideoPubli{
+            width: 50%;
+            height: 50%;
+        }
+        ul li{
+            display: inline;
+        
+              
+        }
+        #Ocultar{
+            width: 50%;
+            height: 50%;  
+        }
 }
 #Video{
     
     width: 100%;
 
 }
+#contador{
+    color:white;
+}
 #Cerrar{
     position: absolute;
     right: 2;
     top: 2;
+    background-color: white;
     
 }
-.prueba{
-    width: 500px;
+#barra{
+    width: 100%;
+    height: 5px;
 }
+#VideoPubli{
+    width: 100%;
+    height: 100%;
+}
+
 .QuitarAspa{
     display: none;
 }
@@ -30,7 +67,6 @@ visibility: visible;
 }
 #lateralDerecho{
     position: absolute;
-    
     right: 180;
     width: 20%;
     height: 130%;
@@ -40,8 +76,10 @@ ul li{
     display: inline;
 
     padding-left: 30px;
+
     
 }
+
 #Ocultar{
     width: 100%;
     height: 100%;
@@ -57,9 +95,10 @@ ul li{
     left: 6%;
     font-size: 25px;
     text-align: center;
+    color: red;
 }
 #Publicidad{
-    background-color: green;
+ 
     position: absolute;
     top: 20%;
     left: 25%;
@@ -70,7 +109,7 @@ ul li{
 #VideoCaja{
 background-color: black;
     border: 4px solid black;
-    width: 640px;
+    width: 96%;
     padding: 10px;
    
 
@@ -78,23 +117,39 @@ background-color: black;
 }
 #Principal{
     position:relative;
-    
  
 }
-#Video2,#Video3,#Video4,#Video5,#Video6,#Video7{
+#Video2,#Video3,#Video4,#Video5{
     width: 80%;
     padding-bottom: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    border: 4px solid white;
+   
 }
+#Video2:hover,#Video3:hover,#Video4:hover,#Video5:hover{
+    text-shadow: -1px -1px rgba(0,0,0,.2);
+    border: 4px solid black;
+    
+    
+}
+
 #Botones{
     margin-left: -2%;
+
+    
    
+}
+#Botones img{
+    cursor: pointer;
 }
 
 #ContenedorVideo{
     background-color: orangered;
     border: 4px solid black;
     width: 668px;
-    height:  480px;
+    height:  460px;
     margin-left: 10%;
     margin-top: 10%;
     position: relative;
