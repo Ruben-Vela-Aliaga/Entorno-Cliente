@@ -1,0 +1,44 @@
+#formulario{
+    border: 2px solid black;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 20;
+}
+#arriba{
+  margin-top: 5%;
+ 
+}
+#abajo{
+margin-top: 5%;
+text-align: center;
+padding-top: 10%;
+    height: 60%;
+     border-top: 2px solid black;
+
+}
+.colum{
+    padding-left: 5%;
+}
+.encabezado{
+    margin-bottom: 5%;
+}
+textarea{
+    width: 70%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+label{
+    font-size: 20px;
+}
+#tabla{
+    border: 2px solid black;
+    width: 50%;
+    height: 50%;
+}
+td{
+    border-bottom:2px solid black;
+    border-right: 2px solid black;
+    width: 20%;
+    height: 20%;
+}
